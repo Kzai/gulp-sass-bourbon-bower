@@ -17,7 +17,6 @@ Provides the basis for a **Front-End** development workflow, complete with some 
 
 `npm install`
 
-----------
 
 **Front-end Dependencies**
 
@@ -35,12 +34,8 @@ Alternatively, run `bower install [package name]` for each of your required fron
 > - ToDo: Create/edit a Gulp task that will edit the paths to these dependencies in `./dist/assets/js/lib`.
 
 
-----------
-
-
 ###Gulp Tasks
 
 Basic Gulp tasks have been created to serve as a starting point to automate your processes.
 These include file watchers, compiling `.js` scripts, `.css`, compressing images etc.
 
-----------
