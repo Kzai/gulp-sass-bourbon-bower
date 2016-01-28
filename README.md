@@ -26,11 +26,7 @@ Workflow specifies that front-end dependencies are installed with Bower with `bo
 
 After each Bower install, run `gulp bower`.
 
-Front-end dependencies can be specified in `bower.json`.
-
-Install with `bower install`.
-
-Alternatively, run `bower install [package name]` for each of your required front-end dependencies.
+Check `bower.json` for details.
 
 > **Notes:**
 
