@@ -1,1 +1,8 @@
+### Node Dependency directory ###
+node_modules
+
+### Bower ###
+src/components
+
+
 

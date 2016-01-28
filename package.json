@@ -1,7 +1,7 @@
 {
-  "name": "bookzilla-dev",
+  "name": "kzai-boilerplate",
   "version": "1.0.0",
-  "description": "Development dependencies for BookZilla",
+  "description": "Development dependencies for front-end projects",
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
@@ -29,8 +29,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "Tapadoo",
-    "Books"
   ],
   "author": "KZAI",
   "license": "MIT"

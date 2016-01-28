@@ -1,14 +1,20 @@
 {
-  "name": "BookZilla",
+  "name": "Kzai Boilerplate",
   "authors": [
     "Kzai <killian86@gmail.com>"
   ],
-  "description": "Tapadoo BookZilla",
+  "description": "A boilerplate for a front-end development workflow using Bower, Gulp, SCSS/Bourbon & Jade",
   "main": "index.html",
   "moduleType": [],
   "keywords": [
-    "Tapadoo",
-    "Books"
+    "Gulp",
+    "Bower",
+    "Workflow",
+    "Boilerplate",
+    "Front-end",
+    "Jade",
+    "SCSS",
+    "Bourbon"
   ],
   "license": "MIT",
   "homepage": "",
@@ -21,7 +27,6 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "^2.2.0",
-    "backbone": "^1.2.3"
+
   }
 }
