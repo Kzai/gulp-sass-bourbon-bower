@@ -3,7 +3,7 @@ A boilerplate for front-end development using Gulp, SCSS with Bourbon, Bower &am
 
 Front-End Workflow
 ===================
-![Toolbelt](http://postimg.org/image/3ukgdpt6t/)
+![Toolbelt](https://github.com/Kzai/gulp-sass-bourbon-bower-jade/blob/master/toolbelt.jpg)
 
 
 Provides the basis for a **Front-End** development workflow, complete with some basic **Gulp** watchers and tasks to speed things up, **Bower** for front-end dependency management and a few **node** modules for development dependencies. Also employs transpilers to work with **Bourbon** and **Jade** during development and outputs CSS (verbose and minified), HTML and third-party libraries to a dist directory, ready for handover.
