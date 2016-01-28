@@ -29,4 +29,5 @@ Alternatively, run `bower install [package name]` for each of your required fron
 
 > - Bower dependencies install to `./src/components` directory, as specified in `.bowerrc` file.
 > - Bower packages install a lot of junk that may be useful in development but normally just the core files of the library (CSS, JS) are required for production. A Gulp task takes care of this and pipes core `.js` files (jQuery, for example) from your Bower dependencies in `./src/components` to the `./dist/assets/js/lib`. You can replicate the Gulp task to do this for any `.css` files that come with your Bower dependencies too, but you'll probably want to handle these using SCSS (and the associated Gulp transpilation task) to make sure your CSS is in the order you want.
-> - M
+> - ToDo: Create/edit a Gulp task that will insert links to Bower components in the index.jade file in specified order.
+> - ToDo: Create/edit a Gulp task that will edit the paths to these dependencies in `./dist/assets/js/lib`.
