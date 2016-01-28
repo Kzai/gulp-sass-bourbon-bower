@@ -1,9 +1,9 @@
 {
   "name": "Kzai Boilerplate",
   "authors": [
-    "Kzai <killian86@gmail.com>"
+    "Kzai"
   ],
-  "description": "A boilerplate for a front-end development workflow using Bower, Gulp, SCSS/Bourbon & Jade",
+  "description": "A boilerplate for a front-end development workflow using Gulp, Bower, SCSS/Bourbon & Jade",
   "main": "index.html",
   "moduleType": [],
   "keywords": [
