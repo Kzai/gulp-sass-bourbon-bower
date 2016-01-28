@@ -22,9 +22,11 @@ Provides the basis for a **Front-End** development workflow, complete with some 
 
 `bower init` and complete bower.json with your project's details which will overwrite existing.
 
-Workflow specifies that front-end dependencies are installed with Bower with `bower install --save-dev [packageName]`.
+Workflow specifies that front-end dependencies are installed with Bower with `bower install --save [packageName]`.
 
-After each Bower install, run `gulp bower`.
+After each Bower install, run `gulp bower` to pipe these required front-end dependencies to `./dist'.
+
+For devDependencies like testing, `--save-dev`, obvs. 
 
 Check `bower.json` for details.
 
