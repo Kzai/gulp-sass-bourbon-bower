@@ -23,6 +23,7 @@ var gulp = require('gulp'),
     cache = require('gulp-cache'),
     livereload = require('gulp-livereload'),
     mainBowerFiles = require('main-bower-files'),
+    jade = require('gulp-jade'),
     del = require('del'),
     paths = {
         // pre-compiled
@@ -30,11 +31,13 @@ var gulp = require('gulp'),
         _main_scss: './src/sass/styles.scss',
         _css: './src/css', //ToDo: Remove and add Watch
         _img: './src/img/**/*',
+        _index: './src/index.jade',
 
         // compiled
         js: './dist/assets/js',
         css: './dist/assets/css',
-        img: 'dist/assets/img'
+        img: './dist/assets/img',
+        index: './dist'
     };
 
 /*          *
@@ -66,6 +69,20 @@ gulp.task('scripts', function() {
         .pipe(gulp.dest(paths.js))
         .pipe(notify({ message: 'Scripts task complete' }));
 });
+
+///*          *
+// *  Jade    *
+// *          */
+//gulp.task('jade', function() {
+//    return gulp.src(paths._index)
+//        .pipe(jade({
+//            jade: jade,
+//            pretty: true
+//        }))
+//        .pipe(gulp.dest(paths.index))
+//});
+
+
 
 /*          *
  *  Images  *
