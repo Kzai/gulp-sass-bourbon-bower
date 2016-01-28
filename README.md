@@ -20,6 +20,8 @@ Provides the basis for a **Front-End** development workflow, complete with some 
 
 **Front-end Dependencies**
 
+`bower init` and complete bower.json with your project's details which will overwrite existing.
+
 Front-end dependencies can be specified in `bower.json`.
 
 Install with `bower install`.
