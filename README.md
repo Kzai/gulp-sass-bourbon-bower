@@ -1,4 +1,4 @@
-# gulp-sass-bourbon-bower
+# gulp-sass-bourbon-bower-jade
 A boilerplate for front-end development using Gulp, SCSS with Bourbon, Bower &amp; Jade
 
 Front-End Workflow
